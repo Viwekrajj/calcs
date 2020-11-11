@@ -1,8 +1,6 @@
 import {one,two,ac,c,res} from "../reducerActions/denOfProjectsReducerActoins";
 
-// export const mapStateToProps = (state: any) => {
-//   return { dopState: state.denOfProjectsReducerState };
-// };
+
 
 export const mapStateToProps = (state:any) => {
   return {
@@ -17,25 +15,7 @@ export const mapStateToProps = (state:any) => {
 
 
 
-// export function mapDispatchToProps(dispatch: any) {
-//   return {
-//     onDecrimentClick: () => {
-//       dispatch(decriment());
-//     },
 
-//     onIncrimentClick: ()=> {
-//         dispatch(incriment());
-//     },
-
-//     onDivideClick: ()=> {
-//       dispatch(divide());
-//   },
-
-//   onMultiplyClick: ()=> {
-//     dispatch(multiply());
-// }
-//   };
-// }
 
 export function mapDispatchToProps  (dispatch:any)  {
   return {
